@@ -4,9 +4,8 @@ export class Drawer extends Component {
     render() {  
 
         return(
-            <div>
-                {/* <!-- Drawer --> */}
-
+            <>
+               
             <div class="mdk-drawer js-mdk-drawer"
                  id="default-drawer">
                 <div class="mdk-drawer__content">
@@ -17,12 +16,12 @@ export class Drawer extends Component {
 
                         <div class="d-flex align-items-center navbar-height">
                             <form action="index.html"
-                                  class="search-form search-form--black mx-16pt pr-0 pl-16pt">
+                                  class="search-form search-form--black mx-16pt pr-0 pl-16pt" />
                                 <input type="text"
                                        class="form-control pl-0"
-                                       placeholder="Search">
+                                       placeholder="Search" />
                                 <button class="btn"
-                                        type="submit" /><i class="material-icons">search</i></button>
+                                        type="submit" /><i class="material-icons">search</i>
                             
                         </div>
 
@@ -44,14 +43,15 @@ export class Drawer extends Component {
                         <div class="application-shell-content">
                             <span class="sidebar-text">Add your sidebar content here.</span>
                         </div>
-
-                        {/* <!-- // END Sidebar Content --> */}
-
                     </div>
                 </div>
             </div>
-            )
-        }
+            
+            
+         </>
+        
+        )
     }
+}
 
 export default Drawer;

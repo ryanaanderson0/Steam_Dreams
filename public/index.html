@@ -17,40 +17,144 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&display=swap"
               rel="stylesheet">
 
-        <!-- Preloader -->
+        <!-- Preloader
         <link type="text/css"
-              href="/assets/public/vendor/spinkit.css"
-              rel="stylesheet">
+              href="./assets/vendor/spinkit.css"
+              rel="stylesheet"> -->
 
         <!-- Perfect Scrollbar -->
         <link type="text/css"
-              href="/assets/public/vendor/perfect-scrollbar.css"
+              href="./assets/vendor/perfect-scrollbar.css"
               rel="stylesheet">
 
         <!-- Material Design Icons -->
         <link type="text/css"
-              href=/assets/css/material-icons.css"
+              href="./assets/css/material-icons.css"
               rel="stylesheet">
 
         <!-- Font Awesome Icons -->
         <link type="text/css"
-              href="/assets/css/fontawesome.css"
+              href="./assets/css/fontawesome.css"
               rel="stylesheet">
 
-        <!-- Preloader -->
+        <!-- Preloader
         <link type="text/css"
-              href="/assets/css/preloader.css"
-              rel="stylesheet">
+              href="./assets/css/preloader.css"
+              rel="stylesheet"> -->
 
         <!-- App CSS -->
         <link type="text/css"
-              href="/assets/css/app.css"
+              href="./assets/css/app.css"
               rel="stylesheet">
 
     </head>
-    
+
     <body class="layout-app ">
       <div id="root">
+            
+      </div>
+
+        <div class="preloader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+
+            <!-- <div class="sk-bounce">
+    <div class="sk-bounce-dot"></div>
+    <div class="sk-bounce-dot"></div>
+  </div> -->
+
+            <!-- More spinner examples at https://github.com/tobiasahlin/SpinKit/blob/master/examples.html -->
+        </div>
+
+        <!-- Drawer Layout -->
+
+        <div class="mdk-drawer-layout js-mdk-drawer-layout"
+             data-push
+             data-responsive-width="992px">
+            <div class="mdk-drawer-layout__content page-content">
+
+                
+            <!-- // END drawer-layout__content -->
+
+            <!-- Drawer -->
+
+            <div class="mdk-drawer js-mdk-drawer"
+                 id="default-drawer">
+                <div class="mdk-drawer__content">
+                    <div class="sidebar sidebar-dark-pickled-bluewood sidebar-left"
+                         data-perfect-scrollbar>
+
+                        <!-- Sidebar Content -->
+
+                        <div class="d-flex align-items-center navbar-height">
+                            <form action="index.html"
+                                  class="search-form search-form--black mx-16pt pr-0 pl-16pt">
+                                <input type="text"
+                                       class="form-control pl-0"
+                                       placeholder="Search">
+                                <button class="btn"
+                                        type="submit"><i class="material-icons">search</i></button>
+                            </form>
+                        </div>
+
+                        <a href="index.html"
+                           class="sidebar-brand ">
+                            <!-- <img class="sidebar-brand-icon" src="../../public/images/illustration/student/128/white.svg" alt="Luma"> -->
+
+                            <span class="avatar avatar-xl sidebar-brand-icon h-auto">
+
+                                <span class="avatar-title rounded bg-primary"><img src="../../public/images/illustration/student/128/white.svg"
+                                         class="img-fluid"
+                                         alt="logo" /></span>
+
+                            </span>
+
+                            <span>Luma</span>
+                        </a>
+
+                        <div class="application-shell-content">
+                            <span class="sidebar-text">Add your sidebar content here.</span>
+                        </div>
+
+                        <!-- // END Sidebar Content -->
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- // END Drawer -->
+
+        </div>
+
+        <!-- // END Drawer Layout -->
+
+        <!-- jQuery -->
+        <script src="../../public/vendor/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="../../public/vendor/popper.min.js"></script>
+        <script src="../../public/vendor/bootstrap.min.js"></script>
+
+        <!-- Perfect Scrollbar -->
+        <script src="../../public/vendor/perfect-scrollbar.min.js"></script>
+
+        <!-- DOM Factory -->
+        <script src="../../public/vendor/dom-factory.js"></script>
+
+        <!-- MDK -->
+        <script src="../../public/vendor/material-design-kit.js"></script>
+
+        <!-- App JS -->
+        <script src="../../public/js/app.js"></script>
+
+        <!-- Preloader -->
+        <script src="../../public/js/preloader.js"></script>
 
 
     </body>

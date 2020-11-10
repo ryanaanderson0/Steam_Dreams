@@ -1,15 +1,19 @@
 import './App.css';
 import React from 'react';
-import Header from './Layout/Header.js';
-import Content from './Layout/Content.js';
+import Header from './Components/Header.js';
+import Content from './Components/Content.js';
+import Footer from './Components/Footer.js';
+import Drawer from './Components/Drawer.js';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <h1>Steam Dreams App</h1>
       <Header />
       <Content />
+      <Drawer />
+      <Footer />
   </div>
   );
 }
